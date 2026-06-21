@@ -28,45 +28,45 @@ export const themes = [
     cover: null,
   },
   {
-    slug: "building-community-as-a-newcomer",
+    slug: "building-community-as-an-international",
     tag: "Community",
-    title: "Building Community as a Newcomer",
+    title: "Building Community as an International",
     description:
       "Volunteering, language cafés, and the slow, quiet way friendships and belonging take shape.",
     accent: "rust",
     icon: "Users",
     cover: null,
   },
-  {
-    slug: "jyvaskyla-through-my-eyes",
-    tag: "Jyväskylä",
-    title: "Jyväskylä Through My Eyes",
-    description:
-      "The lakes, the light, the seasons — this city as I've come to see it, one walk at a time.",
-    accent: "periwinkle",
-    icon: "Camera",
-    cover: null,
-  },
+  // {
+  //   slug: "jyvaskyla-through-my-eyes",
+  //   tag: "Jyväskylä",
+  //   title: "Jyväskylä Through My Eyes",
+  //   description:
+  //     "The lakes, the light, the seasons — this city as I've come to see it, one walk at a time.",
+  //   accent: "periwinkle",
+  //   icon: "Camera",
+  //   cover: null,
+  // },
   {
     slug: "work-integration-finding-my-place",
     tag: "Work & Integration",
-    title: "Work, Integration & Finding My Place",
+    title: "Life Between Events",
     description:
       "Festivals, national holidays, and the public side of building a life and a place in this community.",
     accent: "terracotta",
     icon: "Briefcase",
     cover: null,
   },
-  {
-    slug: "food-traditions-seasonal-life",
-    tag: "Food & Traditions",
-    title: "Food, Traditions & Seasonal Life",
-    description:
-      "What ends up on the table through the seasons, and the food traditions I've learned — and kept — along the way.",
-    accent: "caramel",
-    icon: "UtensilsCrossed",
-    cover: null,
-  },
+  // {
+  //   slug: "food-traditions-seasonal-life",
+  //   tag: "Food & Traditions",
+  //   title: "Food, Traditions & Seasonal Life",
+  //   description:
+  //     "What ends up on the table through the seasons, and the food traditions I've learned — and kept — along the way.",
+  //   accent: "caramel",
+  //   icon: "UtensilsCrossed",
+  //   cover: null,
+  // },
   {
     slug: "international-life-identity-belonging",
     tag: "Identity & Belonging",
