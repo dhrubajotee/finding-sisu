@@ -2,6 +2,7 @@ import Link from "next/link";
 import * as Icons from "lucide-react";
 import { accentFor } from "@/lib/theme-colors";
 import { getPostsByTheme } from "@/lib/utils";
+import Image from "next/image";
 
 export default function ThemeCard({ theme }) {
   const accent = accentFor(theme.accent);
@@ -13,8 +14,14 @@ export default function ThemeCard({ theme }) {
       href={`/themes/${theme.slug}`}
       className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] border border-navy/10 bg-white/60 transition-shadow hover:shadow-lg"
     >
-      <div className={`flex h-28 items-center justify-center ${accent.bg}`}>
-        <Icon className={`h-9 w-9 ${accent.text}`} strokeWidth={1.5} />
+      <div className={`relative overflow-hidden h-28 items-center justify-center ${accent.bg}`}>
+        {/* <Icon className={`h-9 w-9 ${accent.text}`} strokeWidth={1.5} /> */}
+        <Image
+          src={theme.cover}
+          alt={theme.title}
+          fill
+          className="object-cover opacity-60"
+        />
       </div>
       <div className="flex flex-1 flex-col gap-2 p-5">
         <h3 className="font-display text-lg leading-snug text-ink transition-colors group-hover:text-terracotta">

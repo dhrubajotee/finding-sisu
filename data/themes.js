@@ -15,7 +15,7 @@ export const themes = [
       "The early weeks of noticing everything — silence on the bus, supermarket rules, and the slow realisation that I'd moved somewhere completely new.",
     accent: "navy",
     icon: "Compass",
-    cover: null,
+    cover: "/images/themes/first_impression_cover.jpg",
   },
   {
     slug: "travel-destinations",
@@ -25,7 +25,7 @@ export const themes = [
       "Systems, services, and the everyday logistics of figuring out how things actually work here.",
     accent: "skyDeep",
     icon: "Map",
-    cover: null,
+    cover: "/images/themes/travel_cover.jpg",
   },
   {
     slug: "building-community-as-an-international",
@@ -35,7 +35,7 @@ export const themes = [
       "Volunteering, language cafés, and the slow, quiet way friendships and belonging take shape.",
     accent: "rust",
     icon: "Users",
-    cover: null,
+    cover: "/images/themes/building_cover.jpg",
   },
   // {
   //   slug: "jyvaskyla-through-my-eyes",
@@ -55,7 +55,7 @@ export const themes = [
       "Festivals, national holidays, and the public side of building a life and a place in this community.",
     accent: "terracotta",
     icon: "Briefcase",
-    cover: null,
+    cover: "/images/themes/life_cover.jpg",
   },
   // {
   //   slug: "food-traditions-seasonal-life",
@@ -75,7 +75,7 @@ export const themes = [
       "On representing where I'm from while building a life somewhere new, and the in-between space that comes with it.",
     accent: "navy",
     icon: "Globe",
-    cover: null,
+    cover: "/images/themes/international_cover.jpg",
   },
   {
     slug: "resources-links-things-i-wish-i-knew",
@@ -85,6 +85,6 @@ export const themes = [
       "Practical checklists and links for anyone navigating the same first steps I once did.",
     accent: "skyDeep",
     icon: "BookOpen",
-    cover: null,
+    cover: "/images/themes/link_cover.jpg",
   },
 ];
