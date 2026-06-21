@@ -40,7 +40,7 @@ export default function PostCard({ post, index = 0 }) {
         </div>
       </div>
 
-      <h3 className="mt-4 font-display text-lg leading-snug text-ink transition-colors group-hover:text-terracotta">
+      <h3 className="mt-4 font-bold font-display text-lg leading-snug text-ink transition-colors group-hover:text-terracotta">
         {post.title}
       </h3>
       {theme ? (

@@ -49,7 +49,7 @@ export const themes = [
   // },
   {
     slug: "work-integration-finding-my-place",
-    tag: "Work & Integration",
+    tag: "Life Between Events",
     title: "Life Between Events",
     description:
       "Festivals, national holidays, and the public side of building a life and a place in this community.",

@@ -24,7 +24,7 @@ export default function ThemeCard({ theme }) {
         />
       </div>
       <div className="flex flex-1 flex-col gap-2 p-5">
-        <h3 className="font-display text-lg leading-snug text-ink transition-colors group-hover:text-terracotta">
+        <h3 className="font-bold font-display text-lg leading-snug text-ink transition-colors group-hover:text-terracotta">
           {theme.title}
         </h3>
         <p className="flex-1 font-body text-sm text-ink-soft">
