@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+:root {
+  /* Page base */
+  --color-cream: #ede8e9;
+  --color-cream-deep: #e0dade;
+  --color-ink: #2e2b30;
+  --color-ink-soft: #5c5660;
+
+  /* Sunset gradient (hero) */
+  --color-sky: #86afdb;
+  --color-sky-deep: #648cb4;
+  --color-blush: #f1c8c4;
+  --color-coral: #f2a49a;
+  --color-rose-dust: #c29d9c;
+
+  /* Warm accents */
+  --color-terracotta: #7e574c;
+  --color-rust: #8f5d44;
+  --color-caramel: #9f7a64;
+  --color-tan: #d4beb1;
+
+  /* Cool accents */
+  --color-navy: #2a323f;
+  --color-periwinkle: #b3b5ce;
+  --color-periwinkle-soft: #c7c9de;
+
+  --radius-card: 1.25rem;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-cream-deep: var(--color-cream-deep);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+
+  --color-sky: var(--color-sky);
+  --color-sky-deep: var(--color-sky-deep);
+  --color-blush: var(--color-blush);
+  --color-coral: var(--color-coral);
+  --color-rose-dust: var(--color-rose-dust);
+
+  --color-terracotta: var(--color-terracotta);
+  --color-rust: var(--color-rust);
+  --color-caramel: var(--color-caramel);
+  --color-tan: var(--color-tan);
+
+  --color-navy: var(--color-navy);
+  --color-periwinkle: var(--color-periwinkle);
+  --color-periwinkle-soft: var(--color-periwinkle-soft);
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--color-coral);
+  color: var(--color-navy);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.prose-sisu {
+  color: var(--color-ink);
+  font-size: 1.0625rem;
+  line-height: 1.85;
+}
+.prose-sisu p {
+  margin-bottom: 1.5em;
+}
+.prose-sisu h2,
+.prose-sisu h3 {
+  font-family: var(--font-display), serif;
+  color: var(--color-terracotta);
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.7em;
+  line-height: 1.3;
+}
+.prose-sisu h2 {
+  font-size: 1.5rem;
+}
+.prose-sisu h3 {
+  font-size: 1.2rem;
+}
+.prose-sisu strong {
+  color: var(--color-ink);
+  font-weight: 700;
+}
+.prose-sisu em {
+  font-family: var(--font-display), serif;
+  font-style: italic;
+  color: var(--color-rust);
+}
+.prose-sisu blockquote {
+  border-left: 3px solid var(--color-coral);
+  padding: 0.2em 0 0.2em 1.25em;
+  margin: 1.75em 0;
+  font-family: var(--font-display), serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--color-terracotta);
+}
+.prose-sisu ul,
+.prose-sisu ol {
+  margin: 0 0 1.5em 1.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.prose-sisu ul {
+  list-style: disc;
+}
+.prose-sisu ol {
+  list-style: decimal;
+}
+.prose-sisu a {
+  color: var(--color-sky-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose-sisu a:hover {
+  color: var(--color-terracotta);
+}
