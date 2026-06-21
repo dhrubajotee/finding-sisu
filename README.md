@@ -1,6 +1,6 @@
 # Finding Sisu
 
-A personal blog about moving to Jyväskylä, Finland — built with Next.js (App
+A personal blog about moving to Jyväskylä, Finland - built with Next.js (App
 Router), JavaScript, and Tailwind CSS.
 
 ## Running it locally
@@ -15,7 +15,7 @@ Then open [http://localhost:3000](http://localhost:3000).
 ## Deploying to Vercel
 
 Push this folder to a GitHub repo and import it into Vercel (same as your
-other site) — no special configuration needed, it's a standard Next.js app.
+other site) - no special configuration needed, it's a standard Next.js app.
 
 ## Where everything lives
 
@@ -41,13 +41,13 @@ Open `data/posts.js`, copy one of the existing post objects, and edit it:
   title: "Your Post Title",
   date: "2026-07-01",                // YYYY-MM-DD. Leave as null to keep it a draft (hidden from the site)
   cover: null,                       // or "/images/posts/your-photo.jpg"
-  gallery: [],                       // photos shown next to the text — see below
-  video: null,                       // optional — see "Adding a video" below
+  gallery: [],                       // photos shown next to the text - see below
+  video: null,                       // optional - see "Adding a video" below
   content: `Your post text here, in Markdown...`,
 }
 ```
 
-**Writing `content`:** it's plain Markdown — blank lines for new paragraphs,
+**Writing `content`:** it's plain Markdown - blank lines for new paragraphs,
 `## Subheading` for section headings, `> A quote` for a pulled-out quote,
 `- item` for bullet lists, `**bold**` and `*italic*` for emphasis.
 
@@ -66,7 +66,7 @@ gallery: [
 ```
 
 Until you add a photo, the site shows a soft pastel placeholder automatically
-— nothing will look broken in the meantime. The hero photo and your about-me
+- nothing will look broken in the meantime. The hero photo and your about-me
 portrait work the same way; see the README files inside `public/images/hero/`
 and `public/images/about/`.
 
@@ -83,14 +83,14 @@ video: {
 },
 ```
 
-This shows a clickable thumbnail card on the post — clicking it opens your
+This shows a clickable thumbnail card on the post - clicking it opens your
 Instagram/TikTok/YouTube video in a new tab. Nothing is uploaded or hosted
 here, it just links out to where the video already lives. Leave it as
 `video: null` for posts that don't have one.
 
 ## Adding a new theme
 
-Open `data/themes.js` and copy one of the existing objects — give it a
+Open `data/themes.js` and copy one of the existing objects - give it a
 unique `slug`, a `title`, a one-line `description`, an `accent` color (pick
 one already used, e.g. `"navy"`, `"terracotta"`, `"rust"`, `"caramel"`,
 `"periwinkle"`, `"skyDeep"`), and an `icon` (any icon name from
@@ -100,16 +100,16 @@ will automatically show a "No posts here yet" message instead of looking broken.
 ## Things worth knowing
 
 - **Comments** currently live only in your browser tab while you're viewing
-  the page — they're not saved anywhere yet, so refreshing clears them, and
+  the page - they're not saved anywhere yet, so refreshing clears them, and
   no one else sees what others post. The delete (trash) button is already
   there for moderation once comments are real. To make them persist for real
   visitors, the simplest free option is [Giscus](https://giscus.app) (backed
   by GitHub Discussions); a small Supabase table is another option if you'd
   rather not tie it to GitHub. Happy to wire either one up whenever you're ready.
-- Two posts didn't have a date in your Word doc — **"Finnish Saunas: The
+- Two posts didn't have a date in your Word doc - **"Finnish Saunas: The
   Cultural Shock Nobody Truly Prepares You For"** and **"The Complete
-  Newcomer Checklist for Jyväskylä"** — they're marked `date: null` in
+  Newcomer Checklist for Jyväskylä"** - they're marked `date: null` in
   `data/posts.js` (and flagged with a `// TODO` comment right above each) so
   they won't show on the live site until you add a real date.
-- `lib/site.js` has a placeholder URL used to build the share buttons —
+- `lib/site.js` has a placeholder URL used to build the share buttons -
   update it once your Vercel URL (or custom domain) is final.

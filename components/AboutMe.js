@@ -21,7 +21,7 @@ export default function AboutMe() {
           <p className="mt-5 font-body text-base leading-relaxed text-ink-soft">
             I moved to Finland and found a life full of lakes, silence, and
             unexpected warmth. This blog is where I write honestly about that
-            journey — the culture shocks, the small joys, the language
+            journey - the culture shocks, the small joys, the language
             stumbles, and the moments that made it all feel like home.
           </p>
         </div>

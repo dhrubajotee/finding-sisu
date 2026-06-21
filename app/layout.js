@@ -19,9 +19,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Finding Sisu — A Life Across Lakes and Seasons",
+  title: "Finding Sisu - A Life Across Lakes and Seasons",
   description:
-    "A personal blog about moving to Jyväskylä, Finland — first impressions, integration, identity, and the slow work of building a life in a new country.",
+    "A personal blog about moving to Jyväskylä, Finland - first impressions, integration, identity, and the slow work of building a life in a new country.",
 };
 
 export default function RootLayout({ children }) {

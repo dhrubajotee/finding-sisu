@@ -2,8 +2,8 @@ import { themes } from "@/data/themes";
 import ThemeCard from "@/components/ThemeCard";
 
 export const metadata = {
-  title: "Themes — Finding Sisu",
-  description: "Browse Finding Sisu by theme — first impressions, identity, work, food, and more.",
+  title: "Themes - Finding Sisu",
+  description: "Browse Finding Sisu by theme - first impressions, identity, work, food, and more.",
 };
 
 export default function ThemesPage() {

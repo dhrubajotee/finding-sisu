@@ -5,12 +5,12 @@ import { Trash2, MessageCircle } from "lucide-react";
 
 /**
  * Local-only comment UI for now: comments live in this browser tab's memory
- * and reset on refresh — nothing is saved to a server yet. The delete button
+ * and reset on refresh - nothing is saved to a server yet. The delete button
  * is here so the moderation flow is in place once comments are persisted.
  *
  * To make this real (saved + visible to every visitor), wire it up to a
- * backend — e.g. Giscus (free, uses GitHub Discussions) or a small Supabase
- * table — and swap the local `useState` below for fetching/posting there.
+ * backend - e.g. Giscus (free, uses GitHub Discussions) or a small Supabase
+ * table - and swap the local `useState` below for fetching/posting there.
  */
 export default function CommentSection({ postSlug }) {
   const [comments, setComments] = useState([]);
@@ -106,7 +106,7 @@ export default function CommentSection({ postSlug }) {
         </ul>
       ) : (
         <p className="mt-8 font-body text-sm text-ink-soft">
-          No comments yet — be the first to share a thought.
+          No comments yet - be the first to share a thought.
         </p>
       )}
     </section>

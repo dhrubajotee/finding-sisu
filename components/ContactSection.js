@@ -8,7 +8,7 @@ export default function ContactSection() {
           Let&apos;s connect
         </h2>
         <p className="mt-4 font-body text-base text-periwinkle-soft">
-          Questions, shared experiences, or just want to say hello — I&apos;d
+          Questions, shared experiences, or just want to say hello - I&apos;d
           love to hear from you.
         </p>
         <a

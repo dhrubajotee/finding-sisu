@@ -3,7 +3,7 @@
 // To add a new theme later: copy one of the objects below, give it a unique
 // `slug` (used in the URL, e.g. /themes/your-slug), and pick an `accent` from
 // the palette names in app/globals.css (navy, terracotta, skyDeep, rust,
-// periwinkle, caramel). `cover` can stay null until you have a photo —
+// periwinkle, caramel). `cover` can stay null until you have a photo -
 // the site shows a soft gradient placeholder until then.
 
 export const themes = [
@@ -12,7 +12,7 @@ export const themes = [
     tag: "First Impressions",
     title: "First Impressions & Culture Shock",
     description:
-      "The early weeks of noticing everything — silence on the bus, supermarket rules, and the slow realisation that I'd moved somewhere completely new.",
+      "The early weeks of noticing everything - silence on the bus, supermarket rules, and the slow realisation that I'd moved somewhere completely new.",
     accent: "navy",
     icon: "Compass",
     cover: "/images/themes/first_impression_cover.jpg",
@@ -22,7 +22,7 @@ export const themes = [
     tag: "Travel Destinations",
     title: "Travel Destinations in Finland",
     description:
-      "Systems, services, and the everyday logistics of figuring out how things actually work here.",
+      "Personal experiences, hidden places, practical tips and reflections from travels across Finland.",
     accent: "skyDeep",
     icon: "Map",
     cover: "/images/themes/travel_cover.jpg",
@@ -42,7 +42,7 @@ export const themes = [
   //   tag: "Jyväskylä",
   //   title: "Jyväskylä Through My Eyes",
   //   description:
-  //     "The lakes, the light, the seasons — this city as I've come to see it, one walk at a time.",
+  //     "The lakes, the light, the seasons - this city as I've come to see it, one walk at a time.",
   //   accent: "periwinkle",
   //   icon: "Camera",
   //   cover: null,
@@ -62,7 +62,7 @@ export const themes = [
   //   tag: "Food & Traditions",
   //   title: "Food, Traditions & Seasonal Life",
   //   description:
-  //     "What ends up on the table through the seasons, and the food traditions I've learned — and kept — along the way.",
+  //     "What ends up on the table through the seasons, and the food traditions I've learned - and kept - along the way.",
   //   accent: "caramel",
   //   icon: "UtensilsCrossed",
   //   cover: null,

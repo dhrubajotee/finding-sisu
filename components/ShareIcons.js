@@ -16,7 +16,7 @@ export default function ShareIcons({ url, title }) {
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,
   };
 
-  // Instagram has no web share-intent URL, so we copy the link instead —
+  // Instagram has no web share-intent URL, so we copy the link instead -
   // handy for pasting into a story, bio link, or DM.
   async function handleInstagramClick(e) {
     e.preventDefault();
@@ -25,7 +25,7 @@ export default function ShareIcons({ url, title }) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // Clipboard API unavailable — fail silently, nothing to share to anyway.
+      // Clipboard API unavailable - fail silently, nothing to share to anyway.
     }
   }
 

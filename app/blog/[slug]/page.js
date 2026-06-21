@@ -20,7 +20,7 @@ export function generateStaticParams() {
 //   const post = getPostBySlug(params.slug);
 //   if (!post) return {};
 //   return {
-//     title: `${post.title} — Finding Sisu`,
+//     title: `${post.title} - Finding Sisu`,
 //     description: getExcerpt(post.content, 160),
 //   };
 // }
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }) {
   const post = getPostBySlug(slug);
   if (!post) return {};
   return {
-    title: `${post.title} — Finding Sisu`,
+    title: `${post.title} - Finding Sisu`,
     description: getExcerpt(post.content, 160),
   };
 }

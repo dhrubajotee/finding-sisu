@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   const theme = getThemeBySlug(slug);
   if (!theme) return {};
   return {
-    title: `${theme.title} — Finding Sisu`,
+    title: `${theme.title} - Finding Sisu`,
     description: theme.description,
   };
 }
@@ -55,7 +55,7 @@ export default async function ThemeDetailPage({ params }) {
           <Icon className="h-8 w-8 text-ink-soft/50" strokeWidth={1.5} />
           <p className="font-display text-xl text-ink">No posts here yet</p>
           <p className="max-w-sm font-body text-sm text-ink-soft">
-            Stories for this theme are still being written — check back soon.
+            Stories for this theme are still being written - check back soon.
           </p>
         </div>
       )}
