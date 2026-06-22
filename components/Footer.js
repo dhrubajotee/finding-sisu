@@ -19,18 +19,14 @@ export default function Footer() {
           </a>
         </div>
         <p className="font-body text-xs text-ink-soft/80">
-          © {year} Finding Sisu - A life across lakes and seasons. Built with{" "}
-          <Link href="/" className="underline underline-offset-2 hover:text-terracotta">
-            care, in Jyväskylä
-          </Link>
-          .
+          © {year} Finding Sisu - A life across lakes and seasons.
         </p>
         <p className="font-body text-xs text-terracotta"><span className="font-bold">Disclaimer </span>
           The information on this website is based on my personal experiences in Finland. Details may change over time, so please verify important information through official sources.
         </p>
         <p className="font-body text-xs text-terracotta">
           <span className="font-bold">Copyright </span>
-          Unless otherwise stated, all articles and photographs on this website are my original work and may not be copied, reproduced, or used without permission.</p>
+          Unless otherwise stated, all articles and photographs on this website are my original work and may not be copied, reproduced, or used without permission. Posts are allowed to share</p>
       </div>
     </footer>
   );
