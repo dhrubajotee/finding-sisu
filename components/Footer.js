@@ -26,7 +26,7 @@ export default function Footer() {
         </p>
         <p className="font-body text-xs text-terracotta">
           <span className="font-bold">Copyright </span>
-          Unless otherwise stated, all articles and photographs on this website are my original work and may not be copied, reproduced, or used without permission. Posts are allowed to share</p>
+          Unless otherwise stated, all articles and photographs on this website are my original work and may not be copied, reproduced, or used without permission. Posts are allowed to share. </p>
       </div>
     </footer>
   );
