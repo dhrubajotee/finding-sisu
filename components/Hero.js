@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
@@ -5,41 +6,28 @@ export default function Hero() {
     <section className="relative flex h-[92vh] min-h-[600px] w-full items-end overflow-hidden sm:items-center">
       {/* Decorative sunset-over-lake backdrop. Swap for a real photo by editing this file
           and rendering <Image src="/images/hero/hero.jpg" .../> in place of the gradient + svg below. */}
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(180deg, #86afdb 0%, #a7c3de 22%, #e3c2c1 48%, #f2a49a 68%, #e7d4d0 86%, var(--color-cream) 100%)",
-        }}
+
+      <Image
+        src="/images/hero/hero.jpg"
+        alt="Hero background"
+        fill
+        priority
+        className="object-cover object-contain"
       />
-      <svg
-        className="absolute inset-x-0 bottom-0 h-1/2 w-full opacity-90"
-        viewBox="0 0 1440 360"
-        preserveAspectRatio="none"
-        aria-hidden="true"
-      >
-        <path
-          d="M0,180 L60,170 120,185 180,160 240,178 300,150 360,172 420,140 480,168 540,148 600,176 660,155 720,170 780,145 840,175 900,158 960,180 1020,150 1080,172 1140,160 1200,178 1260,150 1320,172 1380,160 1440,175 L1440,360 L0,360 Z"
-          fill="var(--color-navy)"
-          opacity="0.55"
-        />
-        <path
-          d="M0,220 L80,210 160,225 240,205 320,222 400,200 480,218 560,198 640,222 720,205 800,225 880,202 960,220 1040,200 1120,222 1200,208 1280,224 1360,206 1440,220 L1440,360 L0,360 Z"
-          fill="var(--color-navy)"
-          opacity="0.8"
-        />
-        <rect x="0" y="232" width="1440" height="2" fill="var(--color-cream)" opacity="0.25" />
-      </svg>
+
+      {/* Dark overlay so text stays readable */}
+      <div className="absolute inset-0 bg-black/40" />
+
 
       {/* Bottom blur + fade so the hero dissolves into the page, like the reference design */}
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 backdrop-blur-2xl [mask-image:linear-gradient(to_bottom,transparent,black_85%)] sm:h-48" />
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-cream sm:h-40" />
 
       <div className="relative z-10 mx-auto w-full max-w-4xl px-6 pb-28 text-center sm:px-8 sm:pb-16">
-        <h1 className="font-display text-5xl italic text-white drop-shadow-sm sm:text-7xl">
+        <h1 style={{ fontFamily: "'Avant Garde Gothic', sans-serif", letterSpacing: '-0.03em', lineHeight: '0.85' }} className="font-display text-6xl text-white drop-shadow-sm sm:text-8xl">
           Finding Sisu
         </h1>
-        <p className="mt-3 font-display text-xl text-white/95 drop-shadow-sm sm:text-3xl">
+        <p className="mt-3 font-display text-xl text-white/95 drop-shadow-sm sm:text-2xl">
           A life across lakes and seasons
         </p>
         <p className="mx-auto mt-5 max-w-xl font-body text-sm text-white/90 sm:text-base">
