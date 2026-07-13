@@ -87,15 +87,4 @@ export const themes = [
     icon: "BookOpen",
     cover: "/images/themes/link_cover.jpg",
   },
-//   {
-//   slug: "life-between-events",
-//   tag: "Life & Events",
-//   title: "Life Between Events",
-//   description:
-//     "The smaller moments — a rainy festival, a street full of paint, an afternoon that turned into something more.",
-//   accent: "coral",
-//   icon: "Sparkles",
-//   cover: "/images/themes/link_cover.jpg",
-// },
-
 ];
