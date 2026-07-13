@@ -1,6 +1,7 @@
 import { Play, ExternalLink } from "lucide-react";
 import { accentFor } from "@/lib/theme-colors";
 import { InstagramIcon, YoutubeIcon, FacebookIcon, TikTokIcon } from "./icons";
+import Image from "next/image";
 
 const PLATFORM_META = {
   instagram: { label: "Watch on Instagram", Icon: InstagramIcon },
@@ -28,10 +29,29 @@ export default function VideoEmbed({ video, accent }) {
       rel="noopener noreferrer"
       className="group relative my-8 flex items-center gap-4 overflow-hidden rounded-[var(--radius-card)] border border-navy/10 bg-cream-deep p-4 transition-shadow hover:shadow-md sm:p-5"
     >
-      <span
+      {/* <span
         className={`relative flex h-16 w-16 shrink-0 items-center justify-center rounded-xl sm:h-20 sm:w-20 ${styles.bg}`}
       >
         <Play className={`h-7 w-7 ${styles.text}`} fill="currentColor" strokeWidth={0} />
+      </span> */}
+
+      <span className={`relative flex h-36 w-36 shrink-0 items-center justify-center rounded-xl sm:h-44 sm:w-44 ${styles.bg} overflow-hidden`}>
+        {video.thumbnail ? (
+          <>
+            <Image
+              src={video.thumbnail}
+              alt={video.caption || "Video thumbnail"}
+              fill
+              className="object-cover"
+            />
+            {/* Play button overlay */}
+            <span className="absolute inset-0 flex items-center justify-center bg-black/30">
+              <Play className="h-7 w-7 text-white" fill="currentColor" strokeWidth={0} />
+            </span>
+          </>
+        ) : (
+          <Play className={`h-7 w-7 ${styles.text}`} fill="currentColor" strokeWidth={0} />
+        )}
       </span>
 
       <span className="flex min-w-0 flex-1 flex-col">
