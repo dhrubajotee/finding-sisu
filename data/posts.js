@@ -559,13 +559,13 @@ export const posts = [
   "theme": "building-community-as-an-international",
   "title": "Starting a Bengali Family Café in Jyväskylä",
   "date": "2026-08-09",
-  "cover": "/images/posts/bengali/bengalicover.jpg",
+  "cover": "/images/posts/bengali/bengalicover.JPG",
   "gallery": [],
   "video": {
   "url": "https://www.instagram.com/priyodorshini.d_/reel/Db5mMHTtauD/",
   "platform": "instagram",
   "caption": "Bengali Family Café",
-  "thumbnail": "/images/posts/bengali/bengalicover.jpg"
+  "thumbnail": "/images/posts/bengali/bengalicover.JPG"
   },
   "content": "What can make it easier for a family to feel connected to a new place?\n\nSometimes it is having a space where you can meet others, share everyday experiences, ask questions and discover what is happening around you. Alongside, having some shared language, culture and experiences can make that first connection a little easier. That was one of the reasons I wanted to start the Bengali Family Café at Gloria in Jyväskylä.\n\n## Bringing Families Together\n\nThe idea brings together several things that I feel are important for families settling into life in Finland: connection, practical information, children's activities and community participation.\n\nParents can meet other families, share experiences and learn about local services and opportunities. Children can take part in arts and crafts, storytelling, creative activities and language games.\n\nWe also hope to have information sessions around family services, education, language learning and volunteering, alongside cultural activities and collaborations with other communities.\n\n## Our First Gathering\n\nFamilies got to know one another, exchanged experiences and shared ideas about what they would like the café to offer. Children had space for creative activities, while parents had time to talk and connect.\n\nThere was also a lot of interest in future activities, information sessions and cultural events. I was happy to see that participants were not only interested in attending the café but also in contributing ideas and helping shape what it can become.\n\n## What Comes Next\n\nThe Bengali Family Café will continue once a month at Gloria.\n\nI want the programme to develop together with the families who take part. Some months may focus more on children and creativity, while others may include practical information, cultural activities or opportunities to connect with other communities. The first gathering was a small beginning. Now I am looking forward to seeing what we can build together.\n\nYou can read Gloria's announcement about the Bengali Family Café — [gloriajkl.fi](https://www.gloriajkl.fi/en/2026/08/07/uusi-bengali-family-group-alkaa-gloriassa-9-elokuuta/)"
 }
